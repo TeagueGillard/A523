@@ -1,0 +1,475 @@
+{
+  "EmbeddedJavascript": null,
+  "GlobalBrightness": 50.0,
+  "GlobalBrightnessPreset": {
+    "BrightnessPercent": 50.0,
+    "MaxValue": 100.0,
+    "CurrentMode": 0,
+    "Brightness": 50.0,
+    "BrightnessSettings": {
+      "Day": 50.0,
+      "Night": 50.0
+    }
+  },
+  "LedContainers": [
+    {
+      "LedContainers": [
+        {
+          "EnabledFormula": {
+            "JSExt": 3,
+            "Interpreter": 1,
+            "Expression": "if ($prop('InputStatus.JoystickPlugin.Button_Box_Interface_B18') ==1) {\r\n\t\treturn \"1\"\r\n\t\t} \r\nelse \r\n\treturn \"False\""
+          },
+          "BlinkFormula": {
+            "Expression": ""
+          },
+          "LedCount": 1,
+          "Color": "Red",
+          "BlinkEnabled": false,
+          "StartPosition": 2,
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer",
+          "Description": "Neutral LED ",
+          "IsEnabled": true
+        },
+        {
+          "EnabledFormula": {
+            "JSExt": 0,
+            "Interpreter": 1,
+            "Expression": "if ($prop('InputStatus.JoystickPlugin.Button_Box_Interface_B19') ==1) {\r\n\t\treturn \"1\"\r\n\t\t} \r\nelse \r\n\treturn \"False\""
+          },
+          "BlinkFormula": {
+            "Expression": ""
+          },
+          "LedCount": 1,
+          "Color": "Red",
+          "BlinkEnabled": false,
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer",
+          "Description": "Overtake LED",
+          "IsEnabled": true
+        },
+        {
+          "EnabledFormula": {
+            "Expression": "[PitLimiterOn]"
+          },
+          "BlinkFormula": {
+            "Expression": ""
+          },
+          "LedCount": 1,
+          "Color": "Red",
+          "BlinkEnabled": false,
+          "BlinkDelay": 200,
+          "StartPosition": 24,
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer",
+          "Description": "PIT LED ",
+          "IsEnabled": true
+        },
+        {
+          "EnabledFormula": {
+            "Expression": "[DRSAvailable]"
+          },
+          "BlinkFormula": {
+            "Expression": ""
+          },
+          "LedCount": 1,
+          "Color": "Blue",
+          "BlinkEnabled": true,
+          "BlinkDelay": 300,
+          "StartPosition": 21,
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer",
+          "Description": "DRS",
+          "IsEnabled": true
+        },
+        {
+          "EnabledFormula": {
+            "Expression": "[DRSEnabled]"
+          },
+          "BlinkFormula": {
+            "Expression": ""
+          },
+          "LedCount": 1,
+          "Color": "Lime",
+          "BlinkEnabled": false,
+          "StartPosition": 21,
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer",
+          "Description": "DRS Active",
+          "IsEnabled": true
+        },
+        {
+          "LedContainers": [
+            {
+              "LedCount": 3,
+              "Color": "Yellow",
+              "BlinkEnabled": true,
+              "StartPosition": 3,
+              "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.YellowFlagContainer",
+              "Description": "Generates a static color when the Yellow flag is ON",
+              "IsEnabled": true
+            },
+            {
+              "LedCount": 3,
+              "Color": "Yellow",
+              "BlinkEnabled": true,
+              "StartPosition": 21,
+              "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.YellowFlagContainer",
+              "Description": "Generates a static color when the Yellow flag is ON copy",
+              "IsEnabled": true
+            },
+            {
+              "LedCount": 3,
+              "Color": "Blue",
+              "BlinkEnabled": true,
+              "BlinkDelay": 300,
+              "StartPosition": 3,
+              "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.BlueFlagContainer",
+              "IsEnabled": true
+            },
+            {
+              "LedCount": 3,
+              "Color": "Blue",
+              "BlinkEnabled": true,
+              "BlinkDelay": 300,
+              "StartPosition": 21,
+              "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.BlueFlagContainer",
+              "Description": "Generates a static effect when the Blue flag is ON copy",
+              "IsEnabled": true
+            }
+          ],
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Base.GroupContainer",
+          "Description": "Flags",
+          "IsEnabled": true
+        },
+        {
+          "EnabledFormula": {
+            "Expression": "if([Rpms]>5000,1, 0)"
+          },
+          "BlinkFormula": {
+            "Expression": ""
+          },
+          "LedCount": 1,
+          "Color": "Lime",
+          "BlinkEnabled": false,
+          "StartPosition": 6,
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer",
+          "Description": "Min RPM",
+          "IsEnabled": true
+        }
+      ],
+      "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameRunningGroupContainer",
+      "IsEnabled": true
+    },
+    {
+      "BlinkDelay": 200,
+      "Segments": [
+        {
+          "StartValue": 69.0,
+          "NormalColor": "Lime",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 71.0,
+          "NormalColor": "Lime",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 73.0,
+          "NormalColor": "Lime",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 75.0,
+          "NormalColor": "Lime",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 77.0,
+          "NormalColor": "Lime",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 79.0,
+          "NormalColor": "Red",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 81.0,
+          "NormalColor": "Red",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 83.0,
+          "NormalColor": "Red",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 85.0,
+          "NormalColor": "Red",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 87.0,
+          "NormalColor": "Red",
+          "BlinkingColor": "Blue",
+          "UseBlinkingColor": false,
+          "LedCount": 1
+        },
+        {
+          "StartValue": 89.0,
+          "NormalColor": "Blue",
+          "BlinkingColor": "Blue",
+          "LedCount": 1
+        },
+        {
+          "StartValue": 91.0,
+          "NormalColor": "Blue",
+          "BlinkingColor": "Blue",
+          "LedCount": 1
+        },
+        {
+          "StartValue": 93.0,
+          "NormalColor": "Blue",
+          "BlinkingColor": "Blue",
+          "LedCount": 1
+        },
+        {
+          "StartValue": 95.0,
+          "NormalColor": "Blue",
+          "BlinkingColor": "Blue",
+          "LedCount": 1
+        },
+        {
+          "StartValue": 97.0,
+          "NormalColor": "Blue",
+          "BlinkingColor": "Blue",
+          "LedCount": 1
+        }
+      ],
+      "SegmentsCount": 15,
+      "RpmMode": 1,
+      "RelativeToRedline": true,
+      "BlinkOnLastGear": false,
+      "StartPosition": 6,
+      "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.RPMSegmentsContainer",
+      "IsEnabled": true
+    },
+    {
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Animation": {
+            "Columns": 21,
+            "Rows": 1,
+            "Frames": [
+              {
+                "Colors": {
+                  "0": {
+                    "0": {
+                      "Color": "255, 255, 255"
+                    },
+                    "2": {
+                      "Color": "255, 255, 255"
+                    },
+                    "4": {
+                      "Color": "255, 255, 255"
+                    },
+                    "6": {
+                      "Color": "255, 255, 255"
+                    },
+                    "8": {
+                      "Color": "255, 255, 255"
+                    },
+                    "10": {
+                      "Color": "255, 255, 255"
+                    },
+                    "12": {
+                      "Color": "255, 255, 255"
+                    },
+                    "14": {
+                      "Color": "255, 255, 255"
+                    },
+                    "16": {
+                      "Color": "255, 255, 255"
+                    },
+                    "18": {
+                      "Color": "255, 255, 255"
+                    },
+                    "20": {
+                      "Color": "255, 255, 255"
+                    }
+                  }
+                },
+                "FrameDuration": 250
+              },
+              {
+                "Colors": {
+                  "0": {
+                    "1": {
+                      "Color": "255, 255, 255"
+                    },
+                    "3": {
+                      "Color": "255, 255, 255"
+                    },
+                    "5": {
+                      "Color": "255, 255, 255"
+                    },
+                    "7": {
+                      "Color": "255, 255, 255"
+                    },
+                    "9": {
+                      "Color": "255, 255, 255"
+                    },
+                    "11": {
+                      "Color": "255, 255, 255"
+                    },
+                    "13": {
+                      "Color": "255, 255, 255"
+                    },
+                    "15": {
+                      "Color": "255, 255, 255"
+                    },
+                    "17": {
+                      "Color": "255, 255, 255"
+                    },
+                    "19": {
+                      "Color": "255, 255, 255"
+                    }
+                  }
+                },
+                "FrameDuration": 250
+              }
+            ],
+            "PenColor": "255, 255, 255"
+          },
+          "StartPosition": 3,
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.AnimationContainer",
+          "IsEnabled": true
+        }
+      ],
+      "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarInPitLaneGroupContainer",
+      "IsEnabled": true
+    },
+    {
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "EnabledFormula": {
+            "Expression": ""
+          },
+          "BlinkFormula": {
+            "Expression": ""
+          },
+          "LedCount": 1,
+          "Color": "Red",
+          "BlinkEnabled": false,
+          "BlinkDelay": 200,
+          "StartPosition": 24,
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer",
+          "Description": "PIT LED  copy",
+          "IsEnabled": true
+        },
+        {
+          "LedCount": 21,
+          "Color1Alternate": "Blue",
+          "Color2Alternate": "Red",
+          "Color1SingleColor": "White",
+          "Color2SingleColor": "Transparent",
+          "AlternateDelay": 500,
+          "AlternateEnabled": true,
+          "BlinkColor1Delay": 200,
+          "LimiterBehavior": 2,
+          "UseBlinkColor1": false,
+          "UseAlternate2": true,
+          "UseAlternate": false,
+          "Alternate2BlanckBackground": true,
+          "StartPosition": 3,
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpeedLimiterAnimationContainer",
+          "IsEnabled": true
+        }
+      ],
+      "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarSpeedLimiterGroupContainer",
+      "IsEnabled": true
+    },
+    {
+      "EnabledFormula": {
+        "JSExt": 3,
+        "Interpreter": 1,
+        "Expression": "if($prop('SwitchablePropertiesPlugin.Radio LED') ==1){\r\n\treturn \"1\";}\r\n\telse{\r\n\treturn \"False\";}"
+      },
+      "BlinkFormula": {
+        "Expression": ""
+      },
+      "LedCount": 1,
+      "Color": "Red",
+      "BlinkEnabled": false,
+      "StartPosition": 25,
+      "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer",
+      "Description": "Radio LED",
+      "IsEnabled": true
+    }
+  ],
+  "TestLedsGameData": {
+    "GearEx": 0,
+    "FuelMax": 100.0,
+    "RPMSMax": 10000.0,
+    "TurboMax": 3.5,
+    "TurnIndicatorLeftEnabled": false,
+    "TurnIndicatorRightEnabled": false,
+    "SessionBestDeltaEx": -2.0,
+    "AllTimeBestDeltaEx": 2.0,
+    "DRSEnabled": false,
+    "DRSAvailable": false,
+    "MaxRpm": 10000.0,
+    "GameRunning": true,
+    "Brake": 0.0,
+    "GameName": "AssettoCorsaCompetizione",
+    "Fuel": 0.0,
+    "RPMPercent": 91.367346938775526,
+    "RPMRedlineReached": false,
+    "SpeedKmh": 0.0,
+    "SpeedMph": 0.0,
+    "Turbo": 0.0,
+    "TurboPercent": 0.0,
+    "Gear": "N",
+    "IsInPitLane": false,
+    "PitLimiterOn": false,
+    "AbsEnabled": false,
+    "AbsActive": false,
+    "TCEnabled": false,
+    "TCActive": false,
+    "LowFuelAlert": false,
+    "SpotterCarLeft": false,
+    "SpotterCarRight": false,
+    "BlackFlag": false,
+    "YellowFlag": false,
+    "WhiteFlag": false,
+    "BlueFlag": false,
+    "GreenFlag": false,
+    "CarModel": null,
+    "CarId": null,
+    "CarStartedTime": "2024-04-18T21:03:52.3384127+01:00",
+    "SessionBestDelta": 2.0,
+    "AllTimeBestDelta": -2.0
+  },
+  "UseProfileBrightness": false,
+  "LastLoaded": "2024-04-18T20:53:30.461671+01:00",
+  "Name": "Alpine A523",
+  "ProfileId": "b4c2a8fe-820e-406c-9e31-28e621b58f50",
+  "GameCode": null
+}
