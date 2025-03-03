@@ -1,0 +1,282 @@
+{
+  "$id": "1",
+  "Version": 2,
+  "Id": "88a45ea3-04ac-4dd7-997b-191675cce49e",
+  "BaseHeight": 1080,
+  "BaseWidth": 1920,
+  "BackgroundColor": "#FF000000",
+  "Screens": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "RenderingSkip": 0,
+        "IsFreezed": false,
+        "InGameScreen": true,
+        "IdleScreen": false,
+        "PitScreen": false,
+        "ScreenScript": {
+          "$id": "4",
+          "Interpreter": 1
+        },
+        "BackgroundColor": "#00FFFFFF",
+        "IsSelected": true,
+        "Items": {
+          "$id": "5",
+          "$values": [
+            {
+              "$id": "6",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+              "Repetitions": 0.0,
+              "RepeatLeftOffset": 0.0,
+              "RepeatTopOffset": 30.0,
+              "Height": 351.0,
+              "Width": 748.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "Rotation": 0.0,
+              "BorderStyle": {
+                "$id": "7",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "8"
+                }
+              },
+              "RenderingSkip": 0,
+              "ShowSelection": false,
+              "CanResize": false,
+              "Childrens": {
+                "$id": "9",
+                "$values": [
+                  {
+                    "$id": "10",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                    "IsTextItem": true,
+                    "ShadowDepth": 0,
+                    "ShadowBlur": 0,
+                    "ShadowDirection": 315,
+                    "ShadowColor": "#FF808080",
+                    "Font": "Roboto",
+                    "FontWeight": "Bold",
+                    "TextWrapping": 1,
+                    "FontStyle": "Normal",
+                    "FontSize": 190.0,
+                    "Text": "REGEN",
+                    "TextColor": "#FF000000",
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "UseMonospacedText": false,
+                    "CharWidth": 40.0,
+                    "SpecialCharsWidth": 20.0,
+                    "SpecialChars": ".,:;",
+                    "TextMask": "0000000000",
+                    "TextMaskColor": "#FF808080",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#FFFFFFFF",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "11",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 3,
+                      "BorderBottom": 3,
+                      "BorderLeft": 3,
+                      "BorderRight": 3,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "12"
+                      }
+                    },
+                    "Height": 175.0,
+                    "Left": 1082.0,
+                    "Opacity": 100.0,
+                    "Top": 122.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 748.0,
+                    "BorderBottom": 3,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 3,
+                    "BorderRight": 3,
+                    "BorderTop": 3,
+                    "Id": "2610b251-8e6f-46e6-911b-9d76ff1a4393",
+                    "IsFreezed": false,
+                    "IsSelected": true,
+                    "Name": "Regen_Label",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "13"
+                    }
+                  },
+                  {
+                    "$id": "14",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                    "IsTextItem": true,
+                    "ShadowDepth": 0,
+                    "ShadowBlur": 0,
+                    "ShadowDirection": 315,
+                    "ShadowColor": "#FF808080",
+                    "Font": "Roboto",
+                    "FontWeight": "Bold",
+                    "TextWrapping": 1,
+                    "FontStyle": "Normal",
+                    "FontSize": 225.0,
+                    "Text": "2",
+                    "TextColor": "#FF000000",
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "UseMonospacedText": false,
+                    "CharWidth": 40.0,
+                    "SpecialCharsWidth": 20.0,
+                    "SpecialChars": ".,:;",
+                    "TextMask": "",
+                    "TextMaskColor": "#FF808080",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#FFFFFFFF",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "15",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 3,
+                      "BorderBottom": 3,
+                      "BorderLeft": 3,
+                      "BorderRight": 3,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "16"
+                      }
+                    },
+                    "Height": 179.0,
+                    "Left": 1082.0,
+                    "Opacity": 100.0,
+                    "Top": 294.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 748.0,
+                    "BorderBottom": 3,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 3,
+                    "BorderRight": 3,
+                    "BorderTop": 3,
+                    "Id": "87d88d87-c32a-4b72-8909-c84eac216011",
+                    "IsFreezed": false,
+                    "IsSelected": true,
+                    "Name": "Regen_Data",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "17",
+                      "Text": {
+                        "$id": "18",
+                        "Formula": {
+                          "$id": "19",
+                          "Expression": "[DataCorePlugin.GameRawData.Physics.ErsRecoveryLevel]"
+                        },
+                        "Mode": 2,
+                        "TargetPropertyName": "Text"
+                      }
+                    }
+                  }
+                ]
+              },
+              "Group": false,
+              "UseRotation": false,
+              "EnableBlur": false,
+              "Left": 1082.0,
+              "Opacity": 100.0,
+              "Top": 122.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "ec27f472-866b-4f59-b275-fcdaeb2a2efd",
+              "IsSelected": false,
+              "Name": "Regen",
+              "Sid": 0,
+              "Bindings": {
+                "$id": "20"
+              }
+            }
+          ]
+        },
+        "Id": "610506e4-3e25-4add-af61-d8cdaeaa08f2",
+        "Name": "Regen",
+        "Sid": 0,
+        "Bindings": {
+          "$id": "21"
+        }
+      }
+    ]
+  },
+  "SnapToGrid": false,
+  "HideLabels": false,
+  "ShowBoundingRectangles": false,
+  "GridSize": 10,
+  "SelectedScreen": {
+    "$ref": "3"
+  },
+  "Images": {
+    "$id": "22",
+    "$values": []
+  },
+  "Metadata": {
+    "$id": "23",
+    "Category": "Notifications",
+    "Description": "Regen",
+    "Author": "Javliar",
+    "ScreenCount": 1.0,
+    "InGameScreensIndexs": {
+      "$id": "24",
+      "$values": [
+        0
+      ]
+    },
+    "IdleScreensIndexs": {
+      "$id": "25",
+      "$values": []
+    },
+    "MainPreviewIndex": 0,
+    "IsOverlay": false,
+    "ShowInTaskBar": true,
+    "Width": 400.0,
+    "Height": 400.0,
+    "OverlaySizeWarning": false,
+    "MetadataVersion": 2.0,
+    "EnableOnDashboardMessaging": true,
+    "PitScreensIndexs": {
+      "$id": "26",
+      "$values": []
+    }
+  },
+  "ShowOnScreenControls": true,
+  "ShowInTaskBar": true,
+  "IsOverlay": false,
+  "EnableClickThroughOverlay": true,
+  "EnableOnDashboardMessaging": true
+}

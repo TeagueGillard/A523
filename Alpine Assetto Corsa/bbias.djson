@@ -1,0 +1,227 @@
+{
+  "$id": "1",
+  "Version": 2,
+  "Id": "bd55e609-a876-4ebb-bdcb-656ca587c46f",
+  "BaseHeight": 1080,
+  "BaseWidth": 1920,
+  "BackgroundColor": "#FF000000",
+  "Screens": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "RenderingSkip": 0,
+        "IsFreezed": false,
+        "InGameScreen": true,
+        "IdleScreen": false,
+        "PitScreen": false,
+        "ScreenScript": {
+          "$id": "4",
+          "Interpreter": 1
+        },
+        "BackgroundColor": "#00FFFFFF",
+        "IsSelected": true,
+        "Items": {
+          "$id": "5",
+          "$values": [
+            {
+              "$id": "6",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "IsTextItem": true,
+              "ShadowDepth": 0,
+              "ShadowBlur": 0,
+              "ShadowDirection": 315,
+              "ShadowColor": "#FF808080",
+              "Font": "Roboto",
+              "FontWeight": "Bold",
+              "TextWrapping": 1,
+              "FontStyle": "Normal",
+              "FontSize": 190.0,
+              "Text": "BBIAS",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "UseMonospacedText": false,
+              "CharWidth": 40.0,
+              "SpecialCharsWidth": 20.0,
+              "SpecialChars": ".,:;",
+              "TextMask": "0000000000",
+              "TextMaskColor": "#FF808080",
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#FF000000",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "7",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 3,
+                "BorderBottom": 3,
+                "BorderLeft": 3,
+                "BorderRight": 3,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "8"
+                }
+              },
+              "Height": 175.0,
+              "Left": 1082.0,
+              "Opacity": 100.0,
+              "Top": 122.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "Width": 748.0,
+              "BorderBottom": 3,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 3,
+              "BorderRight": 3,
+              "BorderTop": 3,
+              "Id": "2610b251-8e6f-46e6-911b-9d76ff1a4393",
+              "IsFreezed": false,
+              "IsSelected": true,
+              "Name": "BBIAS_Label",
+              "RenderingSkip": 0,
+              "Sid": 0,
+              "Bindings": {
+                "$id": "9"
+              }
+            },
+            {
+              "$id": "10",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "IsTextItem": true,
+              "ShadowDepth": 0,
+              "ShadowBlur": 0,
+              "ShadowDirection": 315,
+              "ShadowColor": "#FF808080",
+              "Font": "Roboto",
+              "FontWeight": "Bold",
+              "TextWrapping": 1,
+              "FontStyle": "Normal",
+              "FontSize": 225.0,
+              "Text": "56.5",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "UseMonospacedText": false,
+              "CharWidth": 40.0,
+              "SpecialCharsWidth": 20.0,
+              "SpecialChars": ".,:;",
+              "TextMask": "",
+              "TextMaskColor": "#FF808080",
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#FF808080",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "11",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 3,
+                "BorderBottom": 3,
+                "BorderLeft": 3,
+                "BorderRight": 3,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "12"
+                }
+              },
+              "Height": 179.0,
+              "Left": 1082.0,
+              "Opacity": 100.0,
+              "Top": 294.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "Width": 748.0,
+              "BorderBottom": 3,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 3,
+              "BorderRight": 3,
+              "BorderTop": 3,
+              "Id": "87d88d87-c32a-4b72-8909-c84eac216011",
+              "IsFreezed": false,
+              "IsSelected": true,
+              "Name": "BBIAS_Data",
+              "RenderingSkip": 0,
+              "Sid": 0,
+              "Bindings": {
+                "$id": "13",
+                "Text": {
+                  "$id": "14",
+                  "FormatString": "0.0",
+                  "Formula": {
+                    "$id": "15",
+                    "Expression": "[DataCorePlugin.GameData.NewData.BrakeBias]"
+                  },
+                  "Mode": 2,
+                  "TargetPropertyName": "Text"
+                }
+              }
+            }
+          ]
+        },
+        "Id": "0a8259f9-2c26-409c-84b0-8786b6448dc1",
+        "Name": "BBIAS Screen",
+        "Sid": 0,
+        "Bindings": {
+          "$id": "16"
+        }
+      }
+    ]
+  },
+  "SnapToGrid": false,
+  "HideLabels": false,
+  "ShowBoundingRectangles": false,
+  "GridSize": 10,
+  "SelectedScreen": {
+    "$ref": "3"
+  },
+  "Images": {
+    "$id": "17",
+    "$values": []
+  },
+  "Metadata": {
+    "$id": "18",
+    "Category": "Notification",
+    "Description": "Brake Bias Changes",
+    "Author": "Javliar",
+    "ScreenCount": 1.0,
+    "InGameScreensIndexs": {
+      "$id": "19",
+      "$values": [
+        0
+      ]
+    },
+    "IdleScreensIndexs": {
+      "$id": "20",
+      "$values": []
+    },
+    "MainPreviewIndex": 0,
+    "IsOverlay": false,
+    "ShowInTaskBar": true,
+    "Width": 1920.0,
+    "Height": 1080.0,
+    "OverlaySizeWarning": true,
+    "MetadataVersion": 2.0,
+    "EnableOnDashboardMessaging": true,
+    "PitScreensIndexs": {
+      "$id": "21",
+      "$values": []
+    }
+  },
+  "ShowOnScreenControls": true,
+  "ShowInTaskBar": true,
+  "IsOverlay": false,
+  "EnableClickThroughOverlay": true,
+  "EnableOnDashboardMessaging": true
+}

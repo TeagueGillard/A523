@@ -1,0 +1,225 @@
+{
+  "$id": "1",
+  "Version": 2,
+  "Id": "56dc10c5-48a7-4426-b980-f304a8fe0447",
+  "BaseHeight": 70,
+  "BaseWidth": 160,
+  "BackgroundColor": "#FF000000",
+  "Screens": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "IsFreezed": false,
+        "InGameScreen": true,
+        "IdleScreen": false,
+        "BackgroundColor": "#00FFFFFF",
+        "IsSelected": true,
+        "Items": {
+          "$id": "4",
+          "$values": [
+            {
+              "$id": "5",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "IsTextItem": true,
+              "ShadowDepth": 0,
+              "ShadowBlur": 0,
+              "ShadowDirection": 315,
+              "ShadowColor": "#FF808080",
+              "Font": "Droid Sans",
+              "FontWeight": "Normal",
+              "TextWrapping": 1,
+              "FontStyle": "Normal",
+              "FontSize": 16.0,
+              "Text": "RPM",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 0,
+              "VerticalAlignment": 1,
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "6",
+                "AllBorders": 0,
+                "AllCornerRadius": 0,
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "7"
+                }
+              },
+              "Height": 20.0,
+              "Left": 0.0,
+              "Opacity": 100.0,
+              "Top": 50.0,
+              "Visible": true,
+              "Width": 65.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "dc48fa27-87db-4930-8238-bb119b93e784",
+              "IsFreezed": false,
+              "IsSelected": true,
+              "Name": "Title",
+              "RenderingSkip": 0,
+              "Sid": 0,
+              "Bindings": {
+                "$id": "8",
+                "TextColor": {
+                  "$id": "9",
+                  "Formula": {
+                    "$id": "10",
+                    "Interpreter": 0,
+                    "Expression": "if(isnull([DataCorePlugin.CurrentGame],'PCars2')=='IRacing' or [DataCorePlugin.CurrentGame]=='RFactor2' or \r\nisnull([DataCorePlugin.CurrentGame],'PCars2')='RRRE' or[DataCorePlugin.CurrentGame]=='RFactor',[DataCorePlugin.GameData.NewData.PitLimiterOn]>0,[DataCorePlugin.GameData.NewData.IsInPitLane]>0)"
+                  },
+                  "StartColor": "#FFFFFFFF",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FF00468A",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 4,
+                  "TargetPropertyName": "TextColor"
+                }
+              }
+            },
+            {
+              "$id": "11",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "IsTextItem": true,
+              "ShadowDepth": 0,
+              "ShadowBlur": 0,
+              "ShadowDirection": 315,
+              "ShadowColor": "#FF808080",
+              "Font": "Droid Sans",
+              "FontWeight": "Normal",
+              "TextWrapping": 1,
+              "FontStyle": "Normal",
+              "FontSize": 55.0,
+              "Text": "12345",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 2,
+              "VerticalAlignment": 1,
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "12",
+                "AllBorders": 0,
+                "AllCornerRadius": 0,
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "13"
+                }
+              },
+              "Height": 50.0,
+              "Left": 0.0,
+              "Opacity": 100.0,
+              "Top": 0.0,
+              "Visible": true,
+              "Width": 160.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "dc48fa27-87db-4930-8238-bb119b93e784",
+              "IsFreezed": false,
+              "IsSelected": false,
+              "Name": "RPM",
+              "RenderingSkip": 0,
+              "Sid": 1,
+              "Bindings": {
+                "$id": "14",
+                "Text": {
+                  "$id": "15",
+                  "FormatString": "0",
+                  "Formula": {
+                    "$id": "16",
+                    "Interpreter": 0,
+                    "Expression": "if([SerialDashPlugin.ComputedRPMPercent]<5,'0',[DataCorePlugin.GameData.NewData.FilteredRpms])"
+                  },
+                  "StartColor": "#FF000000",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 2,
+                  "TargetPropertyName": "Text"
+                },
+                "TextColor": {
+                  "$id": "17",
+                  "Formula": {
+                    "$id": "18",
+                    "Interpreter": 0,
+                    "Expression": "if(isnull([DataCorePlugin.CurrentGame],'PCars2')=='IRacing' or [DataCorePlugin.CurrentGame]=='RFactor2' or \r\nisnull([DataCorePlugin.CurrentGame],'PCars2')='RRRE' or[DataCorePlugin.CurrentGame]=='RFactor',[DataCorePlugin.GameData.NewData.PitLimiterOn]>0,[DataCorePlugin.GameData.NewData.IsInPitLane]>0)"
+                  },
+                  "StartColor": "#FFFFFFFF",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FF00468A",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 4,
+                  "TargetPropertyName": "TextColor"
+                }
+              }
+            }
+          ]
+        },
+        "Id": "2fca0bc5-e4e1-4ee7-9de2-a6f24cfd9a5f",
+        "Name": "Screen1",
+        "RenderingSkip": 0,
+        "Sid": 0,
+        "Bindings": {
+          "$id": "19"
+        }
+      }
+    ]
+  },
+  "SnapToGrid": false,
+  "HideLabels": false,
+  "ShowBoundingRectangles": false,
+  "GridSize": 10,
+  "SelectedScreen": {
+    "$ref": "3"
+  },
+  "Images": {
+    "$id": "20",
+    "$values": []
+  },
+  "Metadata": {
+    "$id": "21",
+    "ScreenCount": 0.0,
+    "MainPreviewIndex": 0
+  }
+}

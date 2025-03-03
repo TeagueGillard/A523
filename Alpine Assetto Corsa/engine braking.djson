@@ -1,0 +1,269 @@
+{
+  "$id": "1",
+  "Version": 2,
+  "Id": "1ea4f77e-2237-41a3-916d-1754d50ec403",
+  "BaseHeight": 1080,
+  "BaseWidth": 1920,
+  "BackgroundColor": "#FF000000",
+  "Screens": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "RenderingSkip": 0,
+        "IsFreezed": false,
+        "InGameScreen": true,
+        "IdleScreen": false,
+        "PitScreen": false,
+        "ScreenScript": {
+          "$id": "4",
+          "Interpreter": 1
+        },
+        "BackgroundColor": "#00FFFFFF",
+        "IsSelected": true,
+        "Items": {
+          "$id": "5",
+          "$values": [
+            {
+              "$id": "6",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+              "Repetitions": 0.0,
+              "RepeatLeftOffset": 0.0,
+              "RepeatTopOffset": 30.0,
+              "Height": 351.0,
+              "Width": 749.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "Rotation": 0.0,
+              "BorderStyle": {
+                "$id": "7",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "8"
+                }
+              },
+              "RenderingSkip": 0,
+              "ShowSelection": false,
+              "CanResize": false,
+              "Childrens": {
+                "$id": "9",
+                "$values": [
+                  {
+                    "$id": "10",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                    "IsTextItem": true,
+                    "ShadowDepth": 0,
+                    "ShadowBlur": 0,
+                    "ShadowDirection": 315,
+                    "ShadowColor": "#FF808080",
+                    "Font": "Roboto",
+                    "FontWeight": "Bold",
+                    "TextWrapping": 1,
+                    "FontStyle": "Normal",
+                    "FontSize": 197.0,
+                    "Text": "EB",
+                    "TextColor": "#FFFFFFFF",
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "UseMonospacedText": false,
+                    "CharWidth": 40.0,
+                    "SpecialCharsWidth": 20.0,
+                    "SpecialChars": ".,:;",
+                    "TextMask": "0000000000",
+                    "TextMaskColor": "#FF808080",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#FF0C0C68",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "11",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 3,
+                      "BorderBottom": 0,
+                      "BorderLeft": 3,
+                      "BorderRight": 3,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "12"
+                      }
+                    },
+                    "Height": 175.0,
+                    "Left": 20.0,
+                    "Opacity": 100.0,
+                    "Top": 122.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 749.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 3,
+                    "BorderRight": 3,
+                    "BorderTop": 3,
+                    "Id": "4ed36cd5-3e11-4c46-9153-e0b9ac77c9d6",
+                    "IsFreezed": false,
+                    "IsSelected": true,
+                    "Name": "Delta To Best Lap Time",
+                    "RenderingSkip": 2,
+                    "Sid": 17,
+                    "Bindings": {
+                      "$id": "13"
+                    }
+                  },
+                  {
+                    "$id": "14",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                    "IsTextItem": true,
+                    "ShadowDepth": 0,
+                    "ShadowBlur": 0,
+                    "ShadowDirection": 315,
+                    "ShadowColor": "#FF808080",
+                    "Font": "Roboto",
+                    "FontWeight": "Bold",
+                    "TextWrapping": 1,
+                    "FontStyle": "Normal",
+                    "FontSize": 219.0,
+                    "Text": "3",
+                    "TextColor": "#FFFFFFFF",
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "UseMonospacedText": false,
+                    "CharWidth": 40.0,
+                    "SpecialCharsWidth": 20.0,
+                    "SpecialChars": ".,:;",
+                    "TextMask": "0000000000",
+                    "TextMaskColor": "#FF808080",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#FF0C0C68",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "15",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 3,
+                      "BorderLeft": 3,
+                      "BorderRight": 3,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "16"
+                      }
+                    },
+                    "Height": 179.0,
+                    "Left": 20.0,
+                    "Opacity": 100.0,
+                    "Top": 294.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 748.0,
+                    "BorderBottom": 3,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 3,
+                    "BorderRight": 3,
+                    "BorderTop": 0,
+                    "Id": "2610b251-8e6f-46e6-911b-9d76ff1a4393",
+                    "IsFreezed": false,
+                    "IsSelected": true,
+                    "Name": "EB_Data",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "17",
+                      "Text": {
+                        "$id": "18",
+                        "Formula": {
+                          "$id": "19",
+                          "Interpreter": 1,
+                          "Expression": "if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==0) {\r\nreturn \"1\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==1) {\r\nreturn \"2\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==2) {\r\nreturn \"3\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==3) {\r\nreturn \"4\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==4) {\r\nreturn \"5\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==5) {\r\nreturn \"6\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==6) {\r\nreturn \"7\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==7) {\r\nreturn \"8\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==8) {\r\nreturn \"9\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==9) {\r\nreturn \"10\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==10) {\r\nreturn \"11\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==11) {\r\nreturn \"12\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==12) {\r\nreturn \"OFF\"\r\n} else if ($prop('DataCorePlugin.GameRawData.Physics.EngineBrake') ==13) {\r\nreturn \"13\"\r\n}"
+                        },
+                        "Mode": 2,
+                        "TargetPropertyName": "Text"
+                      }
+                    }
+                  }
+                ]
+              },
+              "Group": false,
+              "UseRotation": false,
+              "EnableBlur": false,
+              "Left": 20.0,
+              "Opacity": 100.0,
+              "Top": 122.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "6080adb0-7e9a-40e1-9d37-52ef49143821",
+              "IsSelected": false,
+              "Name": "EB",
+              "Sid": 0,
+              "Bindings": {
+                "$id": "20"
+              }
+            }
+          ]
+        },
+        "Id": "319e0356-bfad-450d-be3a-53f4da41ed4a",
+        "Name": "Engine Braking",
+        "Sid": 0,
+        "Bindings": {
+          "$id": "21"
+        }
+      }
+    ]
+  },
+  "SnapToGrid": false,
+  "HideLabels": false,
+  "ShowBoundingRectangles": false,
+  "GridSize": 10,
+  "SelectedScreen": {
+    "$ref": "3"
+  },
+  "Images": {
+    "$id": "22",
+    "$values": []
+  },
+  "Metadata": {
+    "$id": "23",
+    "Category": "Notifications",
+    "Description": "Engine Braking",
+    "Author": "Javliar",
+    "ScreenCount": 0.0,
+    "MainPreviewIndex": 0,
+    "IsOverlay": false,
+    "ShowInTaskBar": true,
+    "Width": 0.0,
+    "Height": 0.0,
+    "OverlaySizeWarning": false,
+    "MetadataVersion": 0.0,
+    "EnableOnDashboardMessaging": false
+  },
+  "ShowOnScreenControls": true,
+  "ShowInTaskBar": true,
+  "IsOverlay": false,
+  "EnableClickThroughOverlay": true,
+  "EnableOnDashboardMessaging": true
+}

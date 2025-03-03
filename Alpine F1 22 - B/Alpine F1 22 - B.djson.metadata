@@ -1,0 +1,18 @@
+{
+  "SimHubVersion": "9.2.0b1",
+  "Category": "Dashboard",
+  "Title": "Alpine F1 22",
+  "Description": "Alpine F1 Dash",
+  "Author": "MR SPORTY TRUCKER",
+  "ScreenCount": 13.0,
+  "InGameScreensIndexs": [],
+  "IdleScreensIndexs": [],
+  "MainPreviewIndex": -1,
+  "IsOverlay": false,
+  "Width": 1280.0,
+  "Height": 720.0,
+  "OverlaySizeWarning": true,
+  "MetadataVersion": 2.0,
+  "EnableOnDashboardMessaging": false,
+  "PitScreensIndexs": []
+}
